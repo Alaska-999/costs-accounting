@@ -6,7 +6,6 @@ import CostsList from "./CostsList/CostsList";
 
 const Costs = (props) => {
     const [selectedYear, setSelectedYear] = useState('2021')
-
     const yearChangeHandler = (year) => {
         setSelectedYear(year)
     }
